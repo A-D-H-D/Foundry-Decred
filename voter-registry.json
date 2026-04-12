@@ -1,0 +1,22 @@
+{
+  "CT201/106113/21": {
+    "walletAddress": "",
+    "credentialIssued": false
+  },
+  "CT201/106087/21": {
+    "walletAddress": "0x015eD6f9F713638c79564c5eEE3b71f5dCB1Fd43",
+    "credentialIssued": true
+  },
+  "CT201/109312/22": {
+    "walletAddress": null,
+    "credentialIssued": false
+  },
+  "CT201/109295/22": {
+    "walletAddress": null,
+    "credentialIssued": false
+  },
+  "CT201/1O2076/20": {
+    "walletAddress": null,
+    "credentialIssued": false
+  }
+}

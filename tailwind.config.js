@@ -1,0 +1,51 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./frontend/index.html", "./frontend/src/**/*.{js,ts,jsx,tsx}"],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          primary: "#385183",
+          "primary-content": "#ffffff",
+          secondary: "#DAE8FF",
+          "secondary-content": "#212638",
+          accent: "#93BBFB",
+          "accent-content": "#212638",
+          neutral: "#212638",
+          "neutral-content": "#ffffff",
+          "base-100": "#ffffff",
+          "base-200": "#f4f8ff",
+          "base-300": "#DAE8FF",
+          "base-content": "#212638",
+          info: "#93BBFB",
+          success: "#34EEB6",
+          warning: "#FFCF72",
+          error: "#FF8863",
+          "--rounded-btn": "9999rem",
+        },
+      },
+      {
+        dark: {
+          primary: "#93BBFB",
+          "primary-content": "#212638",
+          secondary: "#323f61",
+          "secondary-content": "#F9FBFF",
+          accent: "#4969A6",
+          "accent-content": "#F9FBFF",
+          neutral: "#F9FBFF",
+          "neutral-content": "#385183",
+          "base-100": "#1D232A",
+          "base-200": "#15191E",
+          "base-300": "#0D1117",
+          "base-content": "#F9FBFF",
+          info: "#385183",
+          success: "#34EEB6",
+          warning: "#FFCF72",
+          error: "#FF8863",
+          "--rounded-btn": "9999rem",
+        },
+      },
+    ],
+  },
+};
